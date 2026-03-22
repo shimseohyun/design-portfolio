@@ -8,9 +8,9 @@ const router = createBrowserRouter([
     element: <></>,
   },
   {
-    path: "application",
+    path: "share",
     element: <Application />,
-    children: [{ path: "hyundai-autoever", element: <HyundaiAutoever /> }],
+    children: [{ path: "autoever", element: <HyundaiAutoever /> }],
   },
 ]);
 
