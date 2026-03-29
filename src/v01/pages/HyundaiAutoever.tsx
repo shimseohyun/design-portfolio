@@ -7,7 +7,7 @@ const Slide = styled.img`
 export const HyundaiAutoever = () => {
   return (
     <>
-      {Array.from({ length: 36 }, (_, i) => (
+      {Array.from({ length: 32 }, (_, i) => (
         <Slide
           key={i + 1}
           src={`/hyundai-autoever/${String(i + 1).padStart(2, "0")}.png`}
